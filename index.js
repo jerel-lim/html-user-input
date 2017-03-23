@@ -10,6 +10,7 @@ var array = data.map(function(input){
   return input.value
 })
 console.log(array)
+h1.text(array.join(' '))
   })
 //
 //
